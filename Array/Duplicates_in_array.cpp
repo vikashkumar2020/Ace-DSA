@@ -17,6 +17,16 @@ using namespace std;
             curr_2 = nums[curr_2];
         }
         return curr_2;
+
+        // method 2
+        // unordered_map<int, int> m_map;
+        // for(const auto& n : nums)
+        // {
+        //     if(m_map.count(n) > 0)
+        //         return n;
+            
+        //     m_map[n]++;
+        // }
     
     }
 
